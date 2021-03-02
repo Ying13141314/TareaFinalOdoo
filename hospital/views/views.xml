@@ -123,9 +123,9 @@
 
     <!-- menu categories -->
 
-    <menuitem name="Profesional" id="hospital.profesional_menu" parent="hospital.menu_root"/>
-    <menuitem name="Habitacion" id="hospital.habitacion_menu" parent="hospital.menu_root"/>
-    <menuitem name="Cliente" id="hospital.cliente_menu" parent="hospital.menu_root"/>
+    <menuitem name="Profesional" id="hospital.profesional_menu" parent="hospital.menu_root" action="hospital.profesional_action_window"/>
+    <menuitem name="Habitacion" id="hospital.habitacion_menu" parent="hospital.menu_root" action="hospital.habitacion_action_window"/>
+    <menuitem name="Cliente" id="hospital.cliente_menu" parent="hospital.menu_root" action="hospital.cliente_action_window"/>
     
     <!-- explicit list view definition -->
 <!--
